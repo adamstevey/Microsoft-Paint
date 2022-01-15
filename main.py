@@ -30,8 +30,6 @@ rectangle = Rectangle()
 eraser = Eraser()
 clear = Clear()
 
-fill = Fill()
-
 tools = [line, pencil, circle, rectangle, eraser, clear]
 widths = [10, 20, 30]
 colors = [BLACK, BLUE, RED, GREEN, YELLOW, PURPLE, GREY]
