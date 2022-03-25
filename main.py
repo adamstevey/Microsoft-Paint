@@ -97,7 +97,7 @@ def draw_toolbar():
     pygame.draw.rect(WIN, TOOLBAR_GREY, (0, 0, WIDTH, TOOLBAR_HEIGHT))
     for group in allbuttons:
         for button in group:
-            button.draw()
+            button.draw(WIN, pos)
     draw_widths_and_colors()
 
 def handle_eraser():
